@@ -1,0 +1,137 @@
+cd /
+ls
+cd ls
+cd etc
+ls
+ls gss
+ls -l gss
+ls -a gss
+ls -la gss
+cd ..
+pwd
+cd $HOME
+pwd
+cd ..
+pwd
+exit
+pwd
+ssh-keygen
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+i58OV6XYtYZwFno7f89US+7CQFlv2hUEuCtMqNx+8eFDp4QKunGvPMltIkiONs6yRcS7wL7/9hOqElL9
+g3ljaFTi2m9ccTOwCr4apnJTBmpez647ow8UlQqiHwgx7UFd7pkh+TDCEYjsLrQnywwIdjZCQVYWrqfo
+VXC/pZFbYYeip1moHhZVV1MOXY9+uDzPMenrTEsTX0wMn7aya/mexrb4gAt8+Hbpb1JZtzQqJ1WOd67G
+qOTEALBQ2tkDEUpDhqVpRGQtwjF/F+3y+iTaUWzeLt1DKq0ObNhJSRPGZalBTdvvpc0d3Wk= vagrant
+pwd
+cd .ssh
+cat id_rsa.pub
+git --version
+cd ..
+cd
+pwd
+mkdir repogit
+cd repogit/
+git clone git@github.com:FrancoMED/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+cat /etc/passwd
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+whoami
+cat datos_u
+suario.txt
+cat datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add. 
+cd repogit/TP_AySO/
+git status
+cd
+cat datos_usuario.txt 
+mv datos_usuario.txt /repogit/TP_AySO/
+mv datos_usuario.txt repogit/TP_AySO/
+cd repogit/TP_AySO/
+cat datos_usuario.txt 
+git add. 
+git add . 
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git config--global user.email "francoemedina@gmail.com"
+git config --global user.email "francoemedina@gmail.com"
+git config --global user.name "FrancoMED"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cat info_pc.txt 
+git add .
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+man grep
+man sort
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k7
+history
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k7
+grep -v "nologin" /et| head -n 10 | sort -k7
+mv 
+history
+cd repogit/TP_AySO/
+git status
+ls -l
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k7 > lista_ordenada
+cat lista_ordenada 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+cat << EOF >> README.md
+Alumno: Franco Emanuel Medina
+Division: 116 
+Turno: Mañana
+EOF
+
+cat README.md 
+cat << EOF >> README.md
+
+Alumno: Franco Emanuel Medina
+Division: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+cat << EOF > README.md
+# TP_AySO
+
+Alumno: Franco Emanuel Medina
+Division: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+git status
+git add .
+git commit -m "feat: Datos del Alumno"
+git status
+cd 
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree TP1/
+sudo snap install tree
+tree TP1/
+cd repogit/TP_AySO/
+cat << EOF > script_dir.sh
+mkdir -p ~/TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+EOF
+
+chmod +x script_dir.sh 
+ls -l
+git add .
+git commit -m "ADD: Añadiendo script"
+git status
+git push
+history -a
