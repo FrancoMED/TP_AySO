@@ -135,3 +135,13 @@ git commit -m "ADD: Añadiendo script"
 git status
 git push
 history -a
+cp ~/.bash_history ./Historial_comandos_MedinaFranco.txt
+cat Historial_comandos_MedinaFranco.txt 
+git status
+git add .
+git commit -m "ADD: archivo agregado con historial de comandos"
+git push
+history -a 
+history
+git status
+cd repogit/TP_AySO/
